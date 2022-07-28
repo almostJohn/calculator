@@ -1,24 +1,24 @@
 enum Operator {
-	Addition,
-	Subtraction,
-	Multiplication,
-	Division,
+	Add,
+	Subtract,
+	Multiply,
+	Divide,
 }
 
 export function calculator(digit1: number, digit2: number, prop: Operator) {
 	let result: number;
 
 	switch (prop) {
-		case Operator.Addition:
+		case Operator.Add:
 			result = digit1 + digit2;
 			break;
-		case Operator.Subtraction:
+		case Operator.Subtract:
 			result = digit1 - digit2;
 			break;
-		case Operator.Multiplication:
+		case Operator.Multiply:
 			result = digit1 * digit2;
 			break
-		case Operator.Division:
+		case Operator.Divide:
 			result = digit1 / digit2;
 			break;
 	}
