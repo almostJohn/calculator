@@ -17,12 +17,12 @@ Calculates 2 numbers by operator.
 ### Example Usage
 
 ```js
-console.log(calculator(100, 50, Operator.Divide)); // -> 2
+console.log(calculator(100, 50, Operators.Divide)); // -> 2
 ```
 
-# Operator
+# Operators
 
-The enumeration for Operator
+The enumeration for Operators
 
 ### Types
 
