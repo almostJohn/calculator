@@ -1,4 +1,4 @@
-import type { Operators } from './types/Operators';
+import { Operators } from './types/Operators';
 
 export function calculator(digit1: number, digit2: number, prop: Operators) {
 	let result: number;
