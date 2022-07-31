@@ -1,19 +1,19 @@
-import type { Operator } from './types/Operator';
+import type { Operators } from './types/Operators';
 
-export function calculator(digit1: number, digit2: number, prop: Operator) {
+export function calculator(digit1: number, digit2: number, prop: Operators) {
 	let result: number;
 
 	switch (prop) {
-		case Operator.Add:
+		case Operators.Add:
 			result = digit1 + digit2;
 			break;
-		case Operator.Subtract:
+		case Operators.Subtract:
 			result = digit1 - digit2;
 			break;
-		case Operator.Multiply:
+		case Operators.Multiply:
 			result = digit1 * digit2;
 			break
-		case Operator.Divide:
+		case Operators.Divide:
 			result = digit1 / digit2;
 			break;
 	}
