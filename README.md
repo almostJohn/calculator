@@ -17,7 +17,7 @@ Calculates 2 numbers by operator.
 ### Example Usage
 
 ```js
-console.log(calculator(100, 50, Operators.Divide)); // -> 2
+console.log(calculator({ digit1: 100, digit2: 50, prop: Operators.Divide })); // -> 2
 ```
 
 # Operators
