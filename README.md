@@ -2,7 +2,7 @@
 
 Calculates 2 numbers by operator.
 
-### Parameters
+## Parameters
 
 | PARAMETERS | TYPE | DESCRIPTION |
 | ---------- | ---- | ----------- |
@@ -10,11 +10,11 @@ Calculates 2 numbers by operator.
 | `digit2`   | number | The second digit |
 | `prop`     | object | The operator that calculates the two number |
 
-### Returns
+## Returns
 
 [number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)
 
-### Example Usage
+## Example Usage
 
 ```js
 console.log(calculator({ digit1: 100, digit2: 50, prop: Operators.Divide })); // -> 2
@@ -24,11 +24,11 @@ console.log(calculator({ digit1: 100, digit2: 50, prop: Operators.Divide })); //
 
 The enumeration for Operators
 
-### Types
+## Types
 
 [• Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
 
-### Properties
+## Properties
 
 | PARAMETERS | TYPE | DESCRIPTION |
 | ---------- | ---- | ----------- |
