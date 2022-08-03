@@ -6,9 +6,8 @@ Calculates 2 numbers by operator.
 
 | PARAMETERS | TYPE | DESCRIPTION |
 | ---------- | ---- | ----------- |
-| `digit1`   | number | The first digit |
-| `digit2`   | number | The second digit |
 | `prop`     | object | The operator that calculates the two number |
+| `options`  | number | Number options for two numbers to be calculated |
 
 ## Returns
 
@@ -17,8 +16,23 @@ Calculates 2 numbers by operator.
 ## Example Usage
 
 ```js
-console.log(calculator({ digit1: 100, digit2: 50, prop: Operators.Divide })); // -> 2
+console.log(calculator(Operators.Multiply, { int1: 5, int2: 5 })); // -> 25
 ```
+
+# NumberOptions
+
+The member properties for NumberOptions
+
+## Types
+
+[number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)
+
+## Properties
+
+| PARAMETERS | TYPE | DESCRIPTION |
+| ---------- | ---- | ----------- |
+| `int1`     | number | No description |
+| `int2`     | number | No description |
 
 # Operators
 
