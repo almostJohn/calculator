@@ -1,28 +1,25 @@
 import { Operators } from './types/Operators';
 
-export function calculator({
-	digit1,
-	digit2,
-	prop,
-}: {
-	digit1: number,
-	digit2: number,
-	prop: Operators,
-}) {
+interface NumberOptions {
+	int1: number;
+	int2: number;
+}
+
+export function calculator(prop: Operators, options: NumberOptions) {
 	let result: number;
 	
 	switch (prop) {
 		case Operators.Add:
-			result = digit1 + digit2;
+			result = options.int1 + options.int2;
 			break;
 		case Operators.Subtract:
-			result = digit1 - digit2;
+			result = options.int1 - options.int2;
 			break;
 		case Operators.Multiply:
-			result = digit1 * digit2;
+			result = options.int1 * options.int2;
 			break;
 		case Operators.Divide:
-			result = digit1 / digit2;
+			result = options.int1 / options.int2;
 			break;
 	}
 	
