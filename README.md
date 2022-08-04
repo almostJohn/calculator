@@ -4,10 +4,10 @@ Calculates 2 numbers by operator.
 
 ## Parameters
 
-| PARAMETERS | TYPE | DESCRIPTION |
-| ---------- | ---- | ----------- |
-| `prop`     | object | The operator that calculates the two number |
-| `options`  | number | Number options for two numbers to be calculated |
+| PARAMETERS | TYPE | REQUIRED | DESCRIPTION |
+| ---------- | ---- | -------- | ----------- |
+| `prop`     | object | ✔       | The operator that calculates the two number |
+| `options`  | NumberOptions | ✔       | Options for the calculator |
 
 ## Returns
 
@@ -21,11 +21,11 @@ console.log(calculator(Operators.Multiply, { int1: 5, int2: 5 })); // -> 25
 
 # NumberOptions
 
-The member properties for NumberOptions
+Options used to calculate the two numbers.
 
 ## Types
 
-[number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)
+• [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
 
 ## Properties
 
@@ -40,7 +40,7 @@ The enumeration for Operators
 
 ## Types
 
-[• Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
+• [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
 
 ## Properties
 
