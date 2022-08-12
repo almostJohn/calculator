@@ -4,10 +4,10 @@ Calculates 2 numbers by operator.
 
 ## Parameters
 
-| PARAMETERS | TYPE | REQUIRED | DESCRIPTION |
-| ---------- | ---- | -------- | ----------- |
-| `prop`     | object | ✔       | The operator that calculates the two number |
-| `options`  | NumberOptions | ✔       | Options for the calculator |
+| PARAMETERS | TYPE | DESCRIPTION |
+| ---------- | ---- | ----------- |
+| `prop`     | object | The operator that calculates the two number |
+| `options`  | NumberOptions | Options for the calculator |
 
 ## Returns
 
@@ -21,7 +21,7 @@ console.log(calculator(Operators.Multiply, { int1: 5, int2: 5 })); // -> 25
 
 # NumberOptions
 
-Options used to calculate the two numbers.
+Number options to use.
 
 ## Types
 
