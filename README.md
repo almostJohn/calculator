@@ -16,7 +16,7 @@ Calculates 2 numbers by operator.
 ## Example Usage
 
 ```js
-console.log(calculator(Operators.Multiply, { int1: 5, int2: 5 })); // -> 25
+console.log(calculator(Operators.Multiply, { int1: 5, int2: 5 })); // 25
 ```
 
 # NumberOptions
