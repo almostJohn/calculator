@@ -1,11 +1,12 @@
 import { Operators } from './types/Operators';
+import { numberOptions } from './types/numberOptions';
 
-interface NumberOptions {
-	int1: number;
-	int2: number;
-}
 
-export function calculator(prop: Operators, options: NumberOptions) {
+
+
+
+
+export function calculator(prop: Operators, options: numberOptions) {
 	let result: number;
 	
 	switch (prop) {
