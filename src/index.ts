@@ -1,7 +1,7 @@
 import { Operators } from './types/Operators';
-import { numberOptions } from './types/numberOptions';
+import { NumberOptions } from './types/NumberOptions';
 
-export function calculator(prop: Operators, options: numberOptions) {
+export function calculator(prop: Operators, options: NumberOptions) {
 	let result: number;
 	
 	switch (prop) {
