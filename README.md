@@ -19,7 +19,7 @@ Calculates 2 numbers by operator.
 console.log(calculator(Operators.Multiply, { int1: 5, int2: 5 })); // 25
 ```
 
-# numberOptions
+# NumberOptions
 
 Number options to use.
 
