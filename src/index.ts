@@ -3,11 +3,11 @@ import { Operators } from './types/Operators';
 export function calculator(
 	int1: number,
 	int2: number,
-	prop: Operators
+	props: Operators
 ) {
 	let result: number;
 	
-	switch (prop) {
+	switch (props) {
 		case Operators.Add:
 			result = int1 + int2;
 			break;
